@@ -1,0 +1,21 @@
+%% \union - Example: \union{j \in J}{A_j}
+\newcommand{\union}[2]{\underset{#1}\bigcup#2}
+
+%% \inter - like \union, but with \bigcap
+\newcommand{\inter}[2]{\underset{#1}\bigcap#2}
+
+%% For derivatives
+\newcommand{\deriv}[2]{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
+
+%% For partial derivatives
+\newcommand{\pderiv}[2]{\frac{\partial#1}{\partial#2}}
+
+%% Sets
+\newcommand{\inR}{\in\mathbb{R}}
+\newcommand{\inZ}{\in\mathbb{Z}}
+\newcommand{\inN}{\in\mathbb{N}}
+\newcommand{\inF}{\in\mathbb{F}}
+\newcommand{\inQ}{\in\mathbb{Q}}
+
+%% Limits
+\newcommand{\limit}[3][n]{\lim_{#1\rightarrow#2}#3}
