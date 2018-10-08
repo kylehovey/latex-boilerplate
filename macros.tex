@@ -6,9 +6,11 @@
 
 %% For derivatives
 \newcommand{\deriv}[2]{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
+\newcommand{\nderiv}[3]{\frac{\mathrm{d}^#3#1}{\mathrm{d}#2^#3}}
 
 %% For partial derivatives
 \newcommand{\pderiv}[2]{\frac{\partial#1}{\partial#2}}
+\newcommand{\npderiv}[3]{\frac{\partial^#3#1}{\partial#2^#3}}
 
 %% Sets
 \newcommand{\inR}{\in\mathbb{R}}
@@ -19,3 +21,7 @@
 
 %% Limits
 \newcommand{\limit}[3][n]{\lim_{#1\rightarrow#2}#3}
+
+%% Expansions
+\newcommand{\ep}{\varepsilon}
+\newcommand{\BO}[1]{\ensuremath{\mathcal{O}\bigl(#1\bigr)}}
